@@ -4,6 +4,6 @@ def hanoi(n,a,b,c):
 	else:
 		hanoi(n-1,a,c,b)
 		hanoi(1,a,b,c)
-		hanoi(b,a,c)
+		hanoi(n-1,b,a,c)
 		
 		
